@@ -1,0 +1,13 @@
+---
+#SIW Backup job config file
+
+#source and target directories
+source: 'C:\Users'
+target: 'C:\Backup'
+
+#list of backupjobs
+backup_jobs:
+    [
+      'mon-1:30:00-full',
+      'tue-1:30:00-diff'
+    ]
