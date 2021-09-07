@@ -3,7 +3,6 @@
 #
 # -- Last edited by: Duncan Truitt 9-4-21 -- #
 
-
 import yaml
 
 
@@ -29,10 +28,7 @@ class Config:
 
         #TO DO: ADD PORTION TO CHECK ALL ESSENTIAL PORTIONS OF THE YAML FILE EXIST
 
-
-
-
-
+        
 my_loader = Config('example_config.yaml')
 
 print(my_loader.yaml_dict)
