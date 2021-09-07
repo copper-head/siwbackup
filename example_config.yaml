@@ -3,11 +3,14 @@
 
 #source and target directories
 source: 'C:\Users'
-target: 'C:\Backup'
+destination: 'C:\Backup'
+
+#Leave blank to use system time_zone
+time_zone: ''
 
 #list of backupjobs
 backup_jobs:
     [
-      'mon-1:30:00-full',
-      'tue-1:30:00-diff'
+      'monday-1:30:00-full',
+      'tuesday-1:30:00-diff'
     ]
